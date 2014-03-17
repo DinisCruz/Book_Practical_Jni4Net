@@ -3,17 +3,11 @@
 This past week I was in the 'zone' (coding 16h a day) and as you can see by the links below, I was able to (finally) find a way to **make Java, .Net and C++ apps work together. **
 
 **I've 'only' been trying to do this for the past 5 years.**  
-
-
-  
+ 
 There are two key technological concepts at play here (which can work together or isolation)  
 
-
 **1) Side-by-site JVM/CLR execution and programming (in same process)**
-
   
-
-
   * [Using Jni4Net (Part 1) - To C# REPL a java process (ZAP Proxy)](http://diniscruz.blogspot.co.uk/2012/11/using-jni4net-part-1-to-c-repl-java.html)
   * [Using Jni4Net (Part 2) - Controling OWASP ZAP remotely (via Java BeanShell REPL in .Net)](http://diniscruz.blogspot.co.uk/2012/11/using-jni4net-part-2-controling-owasp.html)
   * [Using Jni4Net (Part 3) - Writing and Invoking O2 Methods from Java and Eclipse](http://diniscruz.blogspot.co.uk/2012/11/using-jni4net-part-3-writing-and.html)

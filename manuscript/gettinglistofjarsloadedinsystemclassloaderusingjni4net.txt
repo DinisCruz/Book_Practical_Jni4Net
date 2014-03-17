@@ -28,24 +28,23 @@ here is the script show above:
     var jni4Net = new API_Jni4Net().setUpBride();  
     var env = jni4Net.jniEnv;
 
-var classLoader = ClassLoader.getSystemClassLoader();  
-var beanShellJar = "http://www.beanshell.org/bsh-2.0b4.jar"  
-.uri()  
-.download(false);
+    var classLoader = ClassLoader.getSystemClassLoader();  
+    var beanShellJar = "http://www.beanshell.org/bsh-2.0b4.jar".uri().download(false);
 
-classLoader.loadJar(beanShellJar);  
-var interpreter_Class = beanShellJar.java_Jar_Class("bsh.Interpreter");
+    classLoader.loadJar(beanShellJar);  
+    var interpreter_Class = beanShellJar.java_Jar_Class("bsh.Interpreter");
 
-return interpreter_Class.newInstance()  
-.java_Invoke_UsingSignature(  
-"eval",  
-"(Ljava/lang/String;)Ljava/lang/Object;",  
-"return \"hello from java: \" + (2 + 2); ".java_String()).str();
+    return interpreter_Class.newInstance()
+			    .java_Invoke_UsingSignature("eval",  
+                                                        "(Ljava/lang/String;)Ljava/lang/Object;",  
+                                                        "return \"hello from java: \" + (2 + 2); "
+                                                           .java_String()
+                                                       ).str();
 
-return classLoader.jarsInClassPath();  
-//using java.lang;  
-//O2File:API_Jni4Net.cs  
-//O2Ref:jni4net.n-0.8.6.0.dll  
+    return classLoader.jarsInClassPath();  
+    //using java.lang;  
+    //O2File:API_Jni4Net.cs  
+    //O2Ref:jni4net.n-0.8.6.0.dll  
   
 Finally we can also load/add to the system class path, entire folders with jars. For example all ESAPI dependencies:
 
