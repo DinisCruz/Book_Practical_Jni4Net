@@ -1,14 +1,25 @@
 
-1)
-
-[![image](../images/image_thumb1.png)](http://lh3.ggpht.com/-fsKa2Rsleno/Ua2tlQmUiyI/AAAAAAAAMY8/2TuiZTGyLOA/s1600-h/image%25255B2%25255D.png)
-
-
-2)
+1.a)
 
 ![image](../images/image_thumb1.png)
 
 
-3)
+1.b)
 
 ![image](images/image_thumb1.png)
+
+2.a)
+
+![image](../images/AAA/image_thumb_BBB.png)
+
+2.b)
+
+![image](images/AAA/image_thumb_BBB.png)
+
+4)
+
+![image](images/image_thumb_AAA.png)
+
+5)
+
+![image](./images/image_thumb_AAA.png)
