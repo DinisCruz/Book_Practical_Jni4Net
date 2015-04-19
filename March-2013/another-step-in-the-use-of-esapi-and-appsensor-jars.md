@@ -1,19 +1,19 @@
-##  Another step in the use of ESAPI and AppSensor Jars from .Net/C# (using Jni4Net) 
+##  Another step in the use of ESAPI and AppSensor Jars from .Net/C# (using Jni4Net)
 
 Yesterday at the [OWASP EU Tour London Chapte](https://www.owasp.org/index.php/EUTour2013_London_Agenda)r event meeting I presented the next step of my research on using ESAPI and AppSensor inside a .NET application like TeamMentor (using Jni4Net to allow the JVM to work side by side with the CLR).
 
 The source code of the demo I presented is posted to the [github.com:DinisCruz/TeamMentor_3_3_AppSensor](http://github.com:DinisCruz/TeamMentor_3_3_AppSensor) repo, and this post shows a number of screenshots of what is in there.
 
-I used **TeamMentor's TBot C# **and **AngularJS** pages to create the prototypes (since it is very easy and fast to code in that enviroment)  
-  
+I used **TeamMentor's TBot C# **and **AngularJS** pages to create the prototypes (since it is very easy and fast to code in that enviroment)
+
 The pages were added to the main **_TBot _**control panel, in 3 new sections: **AppSensor**, **AppSensor/ESAPI** and **AppSensor/JVM**:
 
-[![image](images/image_thumb1.png)](http://lh3.ggpht.com/-fsKa2Rsleno/Ua2tlQmUiyI/AAAAAAAAMY8/2TuiZTGyLOA/s1600-h/image%25255B2%25255D.png)
+![image](images/another-step-in-the-use-of-esapi-and-appsensor-jars/image_1.png)
 
 Let's look at all of them and see what they do.
 
-**JavaProperties**  
-  
+**JavaProperties**
+
 Shows the Properties of the current JVM, and is a good first script to run (since it shows that the Jni4Net CLR to JVM bridge is correctly set up)
 
 [![image](images/image_thumb_25255B1_25255D1.png)](http://lh4.ggpht.com/-pUaZd6PJLfM/Ua2tnHUCjxI/AAAAAAAAMZM/0EOxCVn_SUY/s1600-h/image%25255B5%25255D.png)
@@ -28,28 +28,28 @@ The image above shows that there is only one jar loaded at start (**jni4net.j-0.
 
 [![image](images/image_thumb_25255B3_25255D1.png)](http://lh4.ggpht.com/-6Kb3PyKfdOs/Ua2tqr8c6QI/AAAAAAAAMZs/SNg65Qa7QVE/s1600-h/image%25255B11%25255D.png)
 
-**Setup AppSensor**  
+**Setup AppSensor**
 
 This will load up the AppSensor Jars and perform a simple test to see if one of the expected classes can be loaded
 
-[![image](images/image_thumb_25255B4_25255D1.png)](http://lh6.ggpht.com/-z_N-icMNS6s/Ua2tsajPUWI/AAAAAAAAMZ8/5Fr3ILWWvZk/s1600-h/image%25255B14%25255D.png)   
+[![image](images/image_thumb_25255B4_25255D1.png)](http://lh6.ggpht.com/-z_N-icMNS6s/Ua2tsajPUWI/AAAAAAAAMZ8/5Fr3ILWWvZk/s1600-h/image%25255B14%25255D.png)
 
-**View_ESAPI_Encodings**  
+**View_ESAPI_Encodings**
 
 Once we have the ESAPI loaded we can open up this page that shows **what all the ESAPI encodings looks like**
 
-[![image](images/image_thumb_25255B5_25255D1.png)](http://lh3.ggpht.com/-gKbEuJVJ_7E/Ua2tuJDZ0pI/AAAAAAAAMaM/NBkqr4BOScU/s1600-h/image%25255B17%25255D.png)   
+[![image](images/image_thumb_25255B5_25255D1.png)](http://lh3.ggpht.com/-gKbEuJVJ_7E/Ua2tuJDZ0pI/AAAAAAAAMaM/NBkqr4BOScU/s1600-h/image%25255B17%25255D.png)
 [![image](images/image_thumb_25255B7_25255D1.png)](http://lh4.ggpht.com/-UHNifhDWLm8/Ua2tvjT4lYI/AAAAAAAAMac/iiDIV2fSedc/s1600-h/image%25255B21%25255D.png)
 
-Note how many they are: **encodeForHTML , encodeForHTMLAttribute, encodeForCSS, encodeForJavascript, encodeForVBScript, encodeForLDAP, encodeForDN, encodeForXPath, encodeForXML, encodeForXmlAttribute, encodeForURL**  
-**  
+Note how many they are: **encodeForHTML , encodeForHTMLAttribute, encodeForCSS, encodeForJavascript, encodeForVBScript, encodeForLDAP, encodeForDN, encodeForXPath, encodeForXML, encodeForXmlAttribute, encodeForURL**
+**
 **You can use this GUI to try out what a specific encoding looks like.
 
 For example change the text on the left and click on of the **_'encodeFor...'_** buttons
 
 [![image](images/image_thumb_25255B9_25255D.png)](http://lh4.ggpht.com/-4SVsh8Q4To0/Ua2txY99QbI/AAAAAAAAMas/gLeWm9Nm0lc/s1600-h/image%25255B27%25255D.png)
 
-**AppSensor_Logs**  
+**AppSensor_Logs**
 
 Shows the currently registered logs
 
