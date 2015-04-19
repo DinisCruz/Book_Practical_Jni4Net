@@ -3,3 +3,8 @@
 Icon?
 #preview
 #published
+.idea
+editor-ui/.dist
+editor-ui/.coverage
+editor-ui/coverage
+editor-ui/node_modules

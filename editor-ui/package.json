@@ -1,0 +1,16 @@
+{
+  "name": "editor-ui",
+  "version": "0.0.1",
+  "description": "editor ui for leanpub book content",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list",
+    "test-watch": "node ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --recursive -R list -w"
+  },
+  "author": "Dinis Cruz <dinis.cruz@owasp.org> (http://blog.diniscruz.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-mocha": "^0.1.10"
+  }
+}
