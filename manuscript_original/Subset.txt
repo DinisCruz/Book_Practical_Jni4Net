@@ -1,3 +1,2 @@
-1.Introduction.md
 Introduction/1.Introduction.md
 Introduction/1.ChangeLog.md
