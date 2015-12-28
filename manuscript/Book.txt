@@ -1,13 +1,13 @@
 #1.Introduction.md
 #1.ChangeLog.md
-Introduction/test_image.md
+#Introduction/test_image.md
 
-#november2012.md
-#usingjni4netpart1tocreplajavaprocesszapproxy.md
-#usingjni4netpart2controlingowaspzapremotelyviajavabeanshellreplinnet.md
-#usingjni4netpart3writingandinvokingo2methodsfromjavaandeclipsepdf.md
-#usingjni4netpart4integratingappscanwithteammentorfirstpoc.md
-#makingjavanetandcappsworktogether.md
+november2012.md
+usingjni4netpart1tocreplajavaprocesszapproxy.md
+usingjni4netpart2controlingowaspzapremotelyviajavabeanshellreplinnet.md
+usingjni4netpart3writingandinvokingo2methodsfromjavaandeclipsepdf.md
+usingjni4netpart4integratingappscanwithteammentorfirstpoc.md
+makingjavanetandcappsworktogether.md
 
 #march2013.md
 #invokinganowaspappsensorjavamethodfromnetcreplusingjni4net.md
