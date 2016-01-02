@@ -9,6 +9,7 @@ class Leanpub_Book_API
     @.folder_content    = @.folder_repo              .path_Combine 'content'
     @.folder_manuscript = @.folder_repo              .path_Combine 'manuscript'
     @.file_Book         = @.folder_manuscript        .path_Combine 'Book.txt'
+    @.url_Api_Preview   = 'https://leanpub.com/{slug}/preview.json'
 
 
 module.exports =   Leanpub_Book_API

@@ -17,5 +17,18 @@ class Generate_Book
       for file in content_Files
         file.file_Copy @.folder_manuscript
 
+  create_Preview: (slug, apikey, callback)=>
+    url = @.leanpub_Api.url_Api_Preview.replace '{slug}', slug
+    data = "api_key=#{apikey}&action=subset"
+    #console.log data
+    #console.log url
+    #console.log url.http_POST
+    url.http_POST data, (err, data, res)->
+      console.log err
+      console.log data
+      console.log res.headers.status
+      callback data
+
+
 
 module.exports = Generate_Book
