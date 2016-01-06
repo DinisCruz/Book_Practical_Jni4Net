@@ -7,6 +7,7 @@ module.exports = function (wallaby) {
   return {
     files: [
              'src/**/*.coffee',
+             'views/**/*.jade'
            ],
 
     tests: [
