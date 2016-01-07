@@ -1,2 +1,10 @@
 1.Introduction.md
 1.ChangeLog.md
+
+# November 2012
+
+usingjni4netpart1tocreplajavaprocesszapproxy.md
+usingjni4netpart2controlingowaspzapremotelyviajavabeanshellreplinnet.md
+usingjni4netpart3writingandinvokingo2methodsfromjavaandeclipsepdf.md
+usingjni4netpart4integratingappscanwithteammentorfirstpoc.md
+makingjavanetandcappsworktogether.md
