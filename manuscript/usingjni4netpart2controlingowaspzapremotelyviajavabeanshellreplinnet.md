@@ -4,6 +4,6 @@ Once I was able to [Use Jni4Net (Part 1) - To C# REPL a java process (ZAP Proxy)
 
 Here is an example of adding a new 'Site' (i.e. a TreeNode) to the main ZAP 'Site's window (i.e. TreeView)
 
-[![](images/CropperCapture_5B75_5D.jpg)](http://3.bp.blogspot.com/-nOwws-lXa1c/UKdAoJEulmI/AAAAAAAACRs/oX60zn0x8xM/s1600/CropperCapture%5B75%5D.jpg)
+![](images/CropperCapture_5B75_5D.jpg)
 
 For more details on how this PoC was created, take a [look at this pdf](https://dl.dropbox.com/u/81532342/O2%20Raw%20Docs/Pdfs/Using%20Jni4Net%20%28Part%202%29%20-%20Controling%20OWASP%20ZAP%20remotely%20%28via%20Java%20BeanShell%20REPL%20in%20.Net%29.pdf):

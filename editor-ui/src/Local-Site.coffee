@@ -23,15 +23,19 @@ class Local_Site
   map_Routes: =>
     render = (res, file_Name)=>
       file_Path = @.leanpub_Api.folder_content + file_Name
-      files =
-        for file in @.leanpub_Api.folder_content.files_Recursive()
-          file.remove(@.leanpub_Api.folder_content.real_Path())
       if file_Name.file_Extension() is '.jpg'
         return res.sendFile file_Path.real_Path()
+
+      files =
+        for file in @.leanpub_Api.folder_content.files_Recursive()
+          if file.file_Extension() isnt '.jpg'
+            file.remove(@.leanpub_Api.folder_content.real_Path())
+
       if file_Name.file_Extension() is '.txt'
         content = '<pre>' + file_Path.file_Contents() + '</pre>'
       else
         content = marked(file_Path.file_Contents())
+
       viewModel =
         title  : file_Name
         files  : files

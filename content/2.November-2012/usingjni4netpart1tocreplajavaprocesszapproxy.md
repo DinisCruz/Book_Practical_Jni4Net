@@ -8,7 +8,7 @@ My first step was to use the [Injecting C# DLLs into Managed (C#) and Unmanaged 
 
 And here they are in action:
 
-[![](images/CropperCapture_5B72_5D.jpg)](http://1.bp.blogspot.com/-TAQm2KKymH8/UKc6fwKzFQI/AAAAAAAACQY/1WPaIRReisQ/s1600/CropperCapture%5B72%5D.jpg)
+![](images/CropperCapture_5B72_5D.jpg)
 
   * the foreground window is the (CLR based) C# REPL 
   * the background window is the (JVM based) ZAP process.
@@ -17,6 +17,6 @@ After some experiments, I was able to use Jni4Net to create an mini .Net tool (b
 
 For example here are some ZAP classes, and the decompiled main method:
 
-[![](images/CropperCapture_5B74_5D.jpg)](http://3.bp.blogspot.com/-ap8-RhAYSjM/UKc7s1UudwI/AAAAAAAACQg/7SqVYN1429I/s1600/CropperCapture%5B74%5D.jpg)
+![](images/CropperCapture_5B74_5D.jpg)
 
 For more details on how these PoCs were created, take a [look at this pdf](https://dl.dropbox.com/u/81532342/O2%20Raw%20Docs/Pdfs/Using%20Jni4Net%20%28Part%201%29%20-%20To%20C%23%20REPL%20a%20java%20process%20%28ZAP%20Proxy%29.pdf):
