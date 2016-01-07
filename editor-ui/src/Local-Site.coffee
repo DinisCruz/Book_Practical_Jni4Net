@@ -23,7 +23,7 @@ class Local_Site
   map_Routes: =>
     render = (res, file_Name)=>
       file_Path = @.leanpub_Api.folder_content + file_Name
-      if file_Name.file_Extension() is '.jpg'
+      if file_Name.file_Extension() is '.jpg' or file_Name.file_Extension() is '.png'
         return res.sendFile file_Path.real_Path()
 
       files =

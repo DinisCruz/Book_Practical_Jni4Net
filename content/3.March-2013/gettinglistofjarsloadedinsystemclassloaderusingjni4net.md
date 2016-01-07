@@ -8,19 +8,19 @@ Here are a couple examples of [these Extension Methods](https://github.com/o2pla
   
 When you create a simple Jni4Net bridge there is only one jar loader:
 
-[![image](images/image_thumb1.png)](http://lh5.ggpht.com/-shob2l8zSYo/UTCcFHrwuzI/AAAAAAAAKB4/_YBBEiITbgQ/s1600-h/image%25255B2%25255D.png)
+![image](images/image_thumb1.png)
 
 Next lets load a jar dynamically and see it appear in the list of loaded jars
 
-[![image](images/image_thumb_25255B1_25255D1.png)](http://lh5.ggpht.com/-etHjCh-Jiz4/UTCcG1ztHkI/AAAAAAAAKCI/oVIZGriipY8/s1600-h/image%25255B5%25255D.png)
+![image](images/image_thumb_25255B1_25255D1.png)
 
 Note that once the jar is loaded we can access its classes:
 
-[![image](images/image_thumb_25255B2_25255D1.png)](http://lh5.ggpht.com/-AM-W8ICkH5U/UTCcJh0GT9I/AAAAAAAAKCY/rsryi-yrpJ0/s1600-h/image%25255B8%25255D.png)
+![image](images/image_thumb_25255B2_25255D1.png)
 
 create instances and invoke methods:
 
-[![image](images/image_thumb_25255B3_25255D1.png)](http://lh3.ggpht.com/-3rbPGDIbgf4/UTCcLsoojmI/AAAAAAAAKCs/R3HA3R1ZsZE/s1600-h/image%25255B11%25255D.png)
+![image](images/image_thumb_25255B3_25255D1.png)
 
 here is the script show above:  
 
@@ -48,4 +48,4 @@ here is the script show above:
   
 Finally we can also load/add to the system class path, entire folders with jars. For example all ESAPI dependencies:
 
-[![image](images/image_thumb_25255B4_25255D1.png)](http://lh6.ggpht.com/-Dbv63f77zwI/UTCcNdYQ78I/AAAAAAAAKC4/CTDdQZedyKY/s1600-h/image%25255B14%25255D.png)
+![image](images/image_thumb_25255B4_25255D1.png)
