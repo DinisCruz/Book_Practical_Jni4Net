@@ -6,6 +6,11 @@ describe 'Generate_Book', ->
     using new Generate_Book(), ->
       @.leanpub_Api.constructor.name.assert_Is 'Leanpub_Book_API'
 
+  it 'clean_Manuscript', ->
+    using new Generate_Book(), ->
+      @.clean_Manuscript()
+      @.leanpub_Api.folder_images.assert_Folder_Exists()
+
   it 'create_File_Book', ->
     using new Generate_Book(), ->
       @.create_File_Book()
@@ -14,7 +19,7 @@ describe 'Generate_Book', ->
   it 'copy_Content_Files', ->
     using new Generate_Book(), ->
       @.copy_Content_Files()
-      @.leanpub_Api.folder_manuscript.files('.md').assert_Size_Is 2
+      @.leanpub_Api.folder_manuscript.files('.md').assert_Bigger_Than 6
 
   xit 'create_Preview' , (done)->
     slug  = 'Practical_Jni4Net'

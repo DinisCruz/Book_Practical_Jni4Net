@@ -19,13 +19,13 @@ body
 
     .container-fluid
         .row
-            .col-md-3.sidebar
+            .col-md-6.sidebar
                 ul.nav.nav-sidebar
                     for file in files
                         li
                             a(href='/content' + file)= file
         .row
-            .col-md-9.col-md-offset-3.main
+            .col-md-6.col-md-offset-6.main
                 h6.page-header= title
                 != content
 

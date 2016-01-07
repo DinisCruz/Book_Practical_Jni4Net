@@ -6,9 +6,13 @@ class Generate_Book
   constructor: ->
     @.leanpub_Api = new Leanpub_Book_API()
 
+  clean_Manuscript: =>
+    using @.leanpub_Api, ->
+      @.folder_manuscript.folder_Delete_Recursive()
+      @.folder_images.folder_Create()
+
   create_File_Book: =>
     using @.leanpub_Api, ->
-      @.file_Book.delete_File()
       @.folder_content.path_Combine('Book.txt').file_Copy @.file_Book
 
   copy_Content_Files: =>
@@ -16,6 +20,10 @@ class Generate_Book
       content_Files = @.folder_content.files_Recursive('.md')
       for file in content_Files
         file.file_Copy @.folder_manuscript
+      images_Files = @.folder_content.files_Recursive('.jpg')
+      for file in images_Files
+        console.log file
+        file.file_Copy @.folder_images
 
   create_Preview: (slug, apikey, callback)=>
     url = @.leanpub_Api.url_Api_Preview.replace '{slug}', slug

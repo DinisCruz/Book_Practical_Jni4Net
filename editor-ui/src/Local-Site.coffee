@@ -26,6 +26,8 @@ class Local_Site
       files =
         for file in @.leanpub_Api.folder_content.files_Recursive()
           file.remove(@.leanpub_Api.folder_content.real_Path())
+      if file_Name.file_Extension() is '.jpg'
+        return res.sendFile file_Path.real_Path()
       if file_Name.file_Extension() is '.txt'
         content = '<pre>' + file_Path.file_Contents() + '</pre>'
       else
