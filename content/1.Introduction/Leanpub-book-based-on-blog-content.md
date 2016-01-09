@@ -1,4 +1,4 @@
-# Introduction
+# Leanpub book, originally based on Blog posts
 
 This book started with the **Jni4net** related blog posts published on [my blog](http://blog.diniscruz.com) and eventually evolved into the book you have in your hands (or eReader).
 
@@ -31,7 +31,6 @@ I can be contacted directly at dinis.cruz@owasp.org (note that sometimes I'm not
 ### Notes about current structure
 
 The first version of this book had the chapter order created by the original ‘import from blogger’ (i.e. by publish order).
-
 
 At the moment I'm working/thinking about the best way to structure this content, and how to present it in a easy to read/consume format.
 
