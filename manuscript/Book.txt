@@ -1,6 +1,9 @@
-Introduction.md
+{frontmatter}
+Leanpub-book-based-on-blog-content
 ChangeLog.md
 
+{mainmatter}
+Introduction.md
 november2012.md
 
 usingjni4netpart1tocreplajavaprocesszapproxy.md
