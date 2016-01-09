@@ -44,14 +44,16 @@ like for example: **changing its title and making all controls pink**
 
 ![image](images/image_thumb_25255B24_25255D.png)
 
-or **inject a WebBrowser (on the left) with the Jni4Net website:**  
+or **inject a WebBrowser (on the left) with the Jni4Net website:**
+
 ![image](images/image_thumb_25255B25_25255D.png)
 
 The other REPL menu item:
 
 ![image](images/image_thumb_25255B38_25255D.png)
 
-Allows the scripting and visualization of the Jni4Net object:  
+Allows the scripting and visualization of the Jni4Net object:
+
 ![image](images/image_thumb_25255B42_25255D.png)
 
 For reference here is the script (also available at **_O2.Platform.Scripts\3rdParty\Jni4Net\Util - Jni4Net - Java  BeanShell REPL.h2_**) that created this GUI (a bit messy and in need for a good dose of refactoring)):  

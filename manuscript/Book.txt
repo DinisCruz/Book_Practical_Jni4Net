@@ -15,3 +15,12 @@ invokingjavabeanshellfromnetclr.md
 loadingowaspesapijaranditsdependenciesfromcusingjni4net.md
 gettinglistofjarsloadedinsystemclassloaderusingjni4net.md
 utiljni4netjavabeanshellreplv10exe.md
+
+may2013.md
+firstexecutionofesapijarencodermethodsfromo2screpl.md
+
+june2013.md
+another-step-in-the-use-of-esapi-and-appsensor-jars.md
+
+august2013.md
+creating-a-fork-of-jni4net-and-zap-issue.md

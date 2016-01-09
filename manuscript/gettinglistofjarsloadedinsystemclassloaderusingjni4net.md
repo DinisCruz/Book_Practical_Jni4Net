@@ -12,15 +12,15 @@ When you create a simple Jni4Net bridge there is only one jar loader:
 
 Next lets load a jar dynamically and see it appear in the list of loaded jars
 
-![image](images/image_thumb_25255B1_25255D1.png)
+![image](images/image_thumb[20].png)
 
 Note that once the jar is loaded we can access its classes:
 
-![image](images/image_thumb_25255B2_25255D1.png)
+![image](images/image_thumb[21].png)
 
 create instances and invoke methods:
 
-![image](images/image_thumb_25255B3_25255D1.png)
+![image](images/image_thumb[22].png)
 
 here is the script show above:  
 
@@ -48,4 +48,4 @@ here is the script show above:
   
 Finally we can also load/add to the system class path, entire folders with jars. For example all ESAPI dependencies:
 
-![image](images/image_thumb_25255B4_25255D1.png)
+![image](images/image_thumb[23].png)
