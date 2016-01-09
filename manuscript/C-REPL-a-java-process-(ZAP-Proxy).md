@@ -19,4 +19,4 @@ For example here are some ZAP classes, and the decompiled main method:
 
 ![](images/CropperCapture_5B74_5D.jpg)
 
-For more details on how these PoCs were created, take a [look at this pdf](https://dl.dropbox.com/u/81532342/O2%20Raw%20Docs/Pdfs/Using%20Jni4Net%20%28Part%201%29%20-%20To%20C%23%20REPL%20a%20java%20process%20%28ZAP%20Proxy%29.pdf):
+For more details on how these PoCs were created, take a look at this pdf https://bintray.com/artifact/download/dinis-cruz/Books/Using-Jni4Net-Part-1.pdf):
