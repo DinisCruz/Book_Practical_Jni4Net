@@ -4,7 +4,7 @@ Here is a very rough PoC of how I was able to execute a [JavaBean ](http://www.b
 
 Executing _"return 2+2;"_ as a java beanshell comand (see result on the bottom right Output pane)  
   
-[![image](images/image_thumb.png)](http://lh6.ggpht.com/-bnVjacTOB5M/US91Grxos6I/AAAAAAAAJ9Q/oAj8x4IlFJU/s1600-h/image%25255B2%25255D.png)
+![image](images/image_thumb.png)
     
     var jni4Net = new API_Jni4Net();  
     jni4Net.setUpBride();

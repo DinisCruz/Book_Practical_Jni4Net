@@ -20,7 +20,7 @@ Here (screenshot below) is what it looks like:
   * on the bottom left you can see the written C# REPL script
 
   
-[![CropperCapture[34]](images/CropperCapture_25255B34_25255D_thumb.jpg)](http://lh3.ggpht.com/-HnSr88dj64U/US9J2xS01_I/AAAAAAAAJ20/FvBxODcdj8c/s1600-h/CropperCapture%25255B34%25255D%25255B2%25255D.jpg)
+![CropperCapture[34]](images/CropperCapture_25255B34_25255D_thumb.jpg)
 
 Here is the code:  
 

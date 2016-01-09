@@ -19,12 +19,12 @@ body
 
     .container-fluid
         .row
-            .col-md-6.sidebar
+            .col-md-5.sidebar
                 ul.nav.nav-sidebar
                     for file in files
                         if file
                             li
-                                a(href='/content' + file)= file
+                                a(href='/content' + file)= file.replace(/\//g, ' ')
         .row
             .col-md-6.col-md-offset-6.main
                 h6.page-header= title
