@@ -1,12 +1,11 @@
 {frontmatter}
-Leanpub-book-based-on-blog-content
+Leanpub-book-based-on-blog-content.md
 ChangeLog.md
+Introduction.md
 
 {mainmatter}
-Introduction.md
-november2012.md
-
-usingjni4netpart1tocreplajavaprocesszapproxy.md
+november-2012.md
+C-REPL-a-java-process-(ZAP-Proxy).md
 usingjni4netpart2controlingowaspzapremotelyviajavabeanshellreplinnet.md
 usingjni4netpart3writingandinvokingo2methodsfromjavaandeclipsepdf.md
 usingjni4netpart4integratingappscanwithteammentorfirstpoc.md
