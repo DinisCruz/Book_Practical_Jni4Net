@@ -11,8 +11,8 @@
 
 march2013.md
 
-invokinganowaspappsensorjavamethodfromnetcreplusingjni4net.md
-#invokingjavabeanshellfromnetclr.md
+1.Invoking-an-OWASP-AppSensor-Java-method.md
+2.Invoking-Java-BeanShell-from-.Net-CLR.md
 #loadingowaspesapijaranditsdependenciesfromcusingjni4net.md
 #gettinglistofjarsloadedinsystemclassloaderusingjni4net.md
 #utiljni4netjavabeanshellreplv10exe.md
