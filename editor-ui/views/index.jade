@@ -24,7 +24,12 @@ body
                     for file in files
                         if file
                             li
-                                a(href='/content' + file)= file.replace(/\//g, ' ')
+                                if (file === title)
+                                    b
+                                        a(href='/content' + file)= file.replace(/\//g, ' - ')
+                                else
+                                    div
+                                        a(href='/content' + file)= file.replace(/\//g, ' - ')
         .row
             .col-md-6.col-md-offset-6.main
                 h6.page-header= title

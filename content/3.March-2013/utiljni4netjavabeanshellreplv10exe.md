@@ -6,53 +6,53 @@ You can download this stand-alone O2 tool from: [Util - Jni4Net - Java BeanShell
 
 And this is what the default GUI looks like:
 
-[![image](images/image_thumb1.png)](http://lh3.ggpht.com/-_1rf20p9Do4/UUhGv6Tf1rI/AAAAAAAALDE/9fyBrHgj2Kc/s1600-h/image%25255B2%25255D.png)
+![image](images/image_thumb1.png)
 
 If you expand the Console Out panel, you can see the Jni4Net initialization messages:
 
-[![image](images/image_thumb_25255B1_25255D1.png)](http://lh5.ggpht.com/-JDnskWvSSOc/UUhGx-fZCHI/AAAAAAAALDU/gIQb0PVCVbo/s1600-h/image%25255B5%25255D.png)
+![image](images/image_thumb_25255B1_25255D1.png)
 
 There are a number of code samples included:
 
-[![image](images/image_thumb_25255B7_25255D1.png)](http://lh5.ggpht.com/-s_KjDGnD65w/UUhGz7HNS1I/AAAAAAAALDg/XGYIxlHyYXM/s1600-h/image%25255B9%25255D.png)
+![image](images/image_thumb_25255B7_25255D1.png)
 
 Which will be auto executed on selection:
 
-[![image](images/image_thumb_25255B8_25255D1.png)](http://lh3.ggpht.com/-YexvR6XBqQg/UUhG2B_aR-I/AAAAAAAALDw/pazVAYuqvnw/s1600-h/image%25255B12%25255D.png)
+![image](images/image_thumb_25255B8_25255D1.png)
 
 This one for example:
 
-[![image](images/image_thumb_25255B40_25255D.png)](http://lh3.ggpht.com/-tvInyv8I47k/UUhG4YsF7sI/AAAAAAAALEE/h1_3Nu4lgfs/s1600-h/image%25255B46%25255D.png)
+![image](images/image_thumb_25255B40_25255D.png)
 
 will create a Java button:
 
-[![image](images/image_thumb_25255B15_25255D.png)](http://lh3.ggpht.com/-NlqwPODqdLU/UUhG6gegPuI/AAAAAAAALEU/L7pJc8MwmKk/s1600-h/image%25255B20%25255D.png)
+![image](images/image_thumb_25255B15_25255D.png)
 
 which of course can be modified and executed:
 
-[![image](images/image_thumb_25255B16_25255D.png)](http://lh5.ggpht.com/-Ob7Xeix-kbs/UUhG8gcOhVI/AAAAAAAALEk/B6j3tQhfp24/s1600-h/image%25255B23%25255D.png)
+![image](images/image_thumb_25255B16_25255D.png)
 
 Also included is a REPL menu
 
-[![image](images/image_thumb_25255B39_25255D.png)](http://lh6.ggpht.com/-vIzQRZbywJo/UUhG-5EGSSI/AAAAAAAALE0/lxZ8zygT_kc/s1600-h/image%25255B45%25255D.png)
+![image](images/image_thumb_25255B39_25255D.png)
 
 That allows the scripting of the current Form:
 
-[![image](images/image_thumb_25255B23_25255D.png)](http://lh4.ggpht.com/-L-bMKFf96K8/UUhHA3pYpoI/AAAAAAAALFE/JNEeNS-MVlQ/s1600-h/image%25255B31%25255D.png)
+![image](images/image_thumb_25255B23_25255D.png)
 
 like for example: **changing its title and making all controls pink**
 
-[![image](images/image_thumb_25255B24_25255D.png)](http://lh6.ggpht.com/-d_kDFjXml4Y/UUhHC-LW50I/AAAAAAAALFU/b-pKrz5hy88/s1600-h/image%25255B34%25255D.png)
+![image](images/image_thumb_25255B24_25255D.png)
 
 or **inject a WebBrowser (on the left) with the Jni4Net website:**  
-[![image](images/image_thumb_25255B25_25255D.png)](http://lh4.ggpht.com/-fnYkbC_AmNo/UUhHEuHtAeI/AAAAAAAALFk/P3WsOzgG1TE/s1600-h/image%25255B37%25255D.png)
+![image](images/image_thumb_25255B25_25255D.png)
 
 The other REPL menu item:
 
-[![image](images/image_thumb_25255B38_25255D.png)](http://lh3.ggpht.com/-XZbrquuo-SU/UUhHGueoHYI/AAAAAAAALF0/KYDPWQHFc-0/s1600-h/image%25255B44%25255D.png)
+![image](images/image_thumb_25255B38_25255D.png)
 
 Allows the scripting and visualization of the Jni4Net object:  
-[![image](images/image_thumb_25255B42_25255D.png)](http://lh3.ggpht.com/--n_rf8IijBM/UUhHIw5_uyI/AAAAAAAALGE/6desWT4egXY/s1600-h/image%25255B52%25255D.png)
+![image](images/image_thumb_25255B42_25255D.png)
 
 For reference here is the script (also available at **_O2.Platform.Scripts\3rdParty\Jni4Net\Util - Jni4Net - Java  BeanShell REPL.h2_**) that created this GUI (a bit messy and in need for a good dose of refactoring)):  
 
