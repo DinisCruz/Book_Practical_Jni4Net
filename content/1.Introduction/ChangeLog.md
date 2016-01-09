@@ -4,6 +4,7 @@ Here are the changes made (per version):
 
 * **v0.22 (Jan 2016)**
   * Major improvements on editor-ui where it now renders a local site using express and markdown
+  * Finished major refactoring of content files. Now each month has it own folder which contains the respective images
 
 
 * **v0.21 (Dec 2015)**
