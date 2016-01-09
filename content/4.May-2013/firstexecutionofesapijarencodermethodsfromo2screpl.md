@@ -16,21 +16,21 @@ When I was integrating AppSensor (java) with TeamMentor (.NET) I needed to solve
 
 After a bit of research and coding, here is the first code sample that shows ESAPI being consumed from O2 (via Jni4Net)
 
-[![image](images/image_thumb1.png)](http://lh5.ggpht.com/-103t6oAwkBQ/UXeyPd5speI/AAAAAAAABvg/X3ObqFGXonc/s1600-h/image%25255B2%25255D.png)
+![image](images/image[1].png)
 
 Note how the ESAPI Encoder's **_encodeForHTML_** method is being executed:
 
-[![image](images/image_thumb_25255B2_25255D1.png)](http://lh4.ggpht.com/-3npJ7Cvxxp4/UXeyQkHmLWI/AAAAAAAABvw/HbGSsFLFR4M/s1600-h/image%25255B8%25255D.png)
+![image](images/image[8].png)
 
 And displayed in the Output window:
 
-[![image](images/image_thumb_25255B3_25255D1.png)](http://lh3.ggpht.com/-J5W7CE-EEoc/UXeyRvKFiyI/AAAAAAAABwA/_LMxm6pTL3g/s1600-h/image%25255B11%25255D.png)
+![image](images/image[3].png)
 
 To to clarify, although this code is being triggered and executed from a .Net GUI and CLR, the actual code that is doing the encoding is the one from [http://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Encoder.html](http://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Encoder.html) which is running running on a JVM inside the same process as the CLR (the magic sauce is provided by the amazing [Jni4Net](http://blog.diniscruz.com/search/label/Jni4Net))
 
 For example here is the execution result of the ESAPI Encoder's **_encodeForJavascript_**:
 
-[![image](images/image_thumb_25255B4_25255D1.png)](http://lh5.ggpht.com/-3pwqQfY9H1E/UXeySmBvQYI/AAAAAAAABwQ/9DFQ9aTPw08/s1600-h/image%25255B14%25255D.png)
+![image](images/image[14].png)
 
 Which is exactly what I wanted :)
 
@@ -42,6 +42,6 @@ And now that we have the capability to see what the encodings output of the Java
 
 **Note 2: **The current folder set-up and jars looks like this:
 
-[![image](images/image_thumb_25255B5_25255D1.png)](http://lh3.ggpht.com/-QGKL0IKk-_k/UXeyUPKvA6I/AAAAAAAABwg/RUKK2QvgFTY/s1600-h/image%25255B17%25255D.png) 
+![image](images/image_thumb[5].png)
 
 I think it works now ([vs before](http://blog.diniscruz.com/2013/03/loading-owasp-esapi-jar-and-its.html)) because the ESAPI.properties file is in the same path as the ESAPI.jar 
