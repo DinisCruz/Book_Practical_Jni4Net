@@ -1,17 +1,17 @@
-{frontmatter}
-Leanpub-book-based-on-blog-content.md
-ChangeLog.md
-Introduction.md
+#{frontmatter}
+#Leanpub-book-based-on-blog-content.md
+#ChangeLog.md
+#Introduction.md
 
-{mainmatter}
-november-2012.md
-1.C-REPL-a-java-process-(ZAP-Proxy).md
-2.Controlling-OWASP-ZAP-remotely.md
-3.Writing-and-Invoking-O2-Methods-from-Java-and-Eclipse.md
+#{mainmatter}
+#november-2012.md
+#1.C-REPL-a-java-process-(ZAP-Proxy).md
+#2.Controlling-OWASP-ZAP-remotely.md
+#3.Writing-and-Invoking-O2-Methods-from-Java-and-Eclipse.md
 
-#march2013.md
-#
-#invokinganowaspappsensorjavamethodfromnetcreplusingjni4net.md
+march2013.md
+
+invokinganowaspappsensorjavamethodfromnetcreplusingjni4net.md
 #invokingjavabeanshellfromnetclr.md
 #loadingowaspesapijaranditsdependenciesfromcusingjni4net.md
 #gettinglistofjarsloadedinsystemclassloaderusingjni4net.md

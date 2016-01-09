@@ -13,3 +13,5 @@ The the key technology innovations that were required to make this happen were:
 Note that this is still a massive hack, but it works :)
 
 It would be great if there was a more official way to make this happen.
+
+This book contains my Jni4Net experiments and research.
