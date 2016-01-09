@@ -28,7 +28,7 @@ class Local_Site
 
       files =
         for file in @.leanpub_Api.folder_content.files_Recursive()
-          if file.file_Extension() isnt '.jpg' and file.file_Extension() isnt '.png'
+          if file.file_Extension() and ['.jpg', '.png', '.DS_Store'].not_Contains file.file_Extension()
             file.remove(@.leanpub_Api.folder_content.real_Path())
 
       if file_Name.file_Extension() is '.txt'
