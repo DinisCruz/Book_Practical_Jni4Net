@@ -1,5 +1,5 @@
-1.Introduction.md
-1.ChangeLog.md
+Introduction.md
+ChangeLog.md
 
 november2012.md
 
@@ -10,6 +10,7 @@ usingjni4netpart4integratingappscanwithteammentorfirstpoc.md
 makingjavanetandcappsworktogether.md
 
 march2013.md
+
 invokinganowaspappsensorjavamethodfromnetcreplusingjni4net.md
 invokingjavabeanshellfromnetclr.md
 loadingowaspesapijaranditsdependenciesfromcusingjni4net.md
@@ -17,10 +18,13 @@ gettinglistofjarsloadedinsystemclassloaderusingjni4net.md
 utiljni4netjavabeanshellreplv10exe.md
 
 may2013.md
+
 firstexecutionofesapijarencodermethodsfromo2screpl.md
 
 june2013.md
+
 another-step-in-the-use-of-esapi-and-appsensor-jars.md
 
 august2013.md
+
 creating-a-fork-of-jni4net-and-zap-issue.md
