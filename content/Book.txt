@@ -23,6 +23,7 @@
 #1.Another-step-in-the-use-of-ESAPI-and-AppSensor-Jars-from-.Net.md
 
 august2013.md
-1.Consuming-a-forked-version-of-Jni4Net
+1.Consuming-a-forked-version-of-Jni4Net.md
 2.Compiling-Jni4Net-From-Source.md
-#3.Dealing-with-'Attempted-to-read-or-write-protected-memory'.md
+#3.Reproducing-'Attempted-to-read-or-write-protected-memory'.md
+#4.Reproducing-'Attempted-to-read-or-write-protected-memory'.md
