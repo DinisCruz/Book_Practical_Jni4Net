@@ -13,8 +13,8 @@ march2013.md
 
 #1.Invoking-an-OWASP-AppSensor-Java-method.md
 #2.Invoking-Java-BeanShell-from-.Net-CLR.md
-3.Loading-OWASP-ESAPI-jar-and-its-dependencies.md
-#gettinglistofjarsloadedinsystemclassloaderusingjni4net.md
+#3.Loading-OWASP-ESAPI-jar-and-its-dependencies.md
+4.Getting-list-of-Jars-loaded-in-SystemClassLoader.md
 #utiljni4netjavabeanshellreplv10exe.md
 #
 #may2013.md
