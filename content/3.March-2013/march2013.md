@@ -4,4 +4,4 @@
 * Invoking Java BeanShell from .Net CLR
 * Loading OWASP ESAPI jar and its dependencies
 * Getting list of Jars loaded in SystemClassLoader
-* Util - Jni4Net - Java BeanShell REPL v1.0.exe
+* Java BeanShell REPL v1.0.exe
