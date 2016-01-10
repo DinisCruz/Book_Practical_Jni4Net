@@ -16,12 +16,13 @@
 #4.Getting-list-of-Jars-loaded-in-SystemClassLoader.md
 #5.Java-BeanShell-REPL-v1.0.exe.md
 
-may2013.md
-1.First-execution-of-ESAPI.jar-Encoder-methods.md
+#may2013.md
+#1.First-execution-of-ESAPI.jar-Encoder-methods.md
 
-june2013.md
-1.Another-step-in-the-use-of-ESAPI-and-AppSensor-Jars-from-.Net.md
+#june2013.md
+#1.Another-step-in-the-use-of-ESAPI-and-AppSensor-Jars-from-.Net.md
 
-#august2013.md
-#
-#creating-a-fork-of-jni4net-and-zap-issue.md
+august2013.md
+1.Consuming-a-forked-version-of-Jni4Net
+2.Compiling-Jni4Net-From-Source.md
+#3.Dealing-with-'Attempted-to-read-or-write-protected-memory'.md
