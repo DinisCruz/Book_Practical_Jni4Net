@@ -30,9 +30,9 @@ I can be contacted directly at dinis.cruz@owasp.org (note that sometimes I'm not
 
 ### Notes about current structure
 
-The first version of this book had the chapter order created by the original ‘import from blogger’ (i.e. by publish order).
+The current version groups the posts by published month.
 
-At the moment I'm working/thinking about the best way to structure this content, and how to present it in a easy to read/consume format.
+I'm still thinking about the best way to structure this content, and how to present it in a easy to read/consume format.
 
 It would be great if you (the reader) could provide some feedback on the book's structure, for example:
 
@@ -43,8 +43,8 @@ It would be great if you (the reader) could provide some feedback on the book's 
 
 ### About the Author
 
-Dinis Cruz is a Developer and Application Security Engineer focused on how to develop secure applications. A key drive is on 'Automating Application Security Knowledge and Workflows' which is the main concept behind the OWASP O2 Platform, the FluentSharp APIs and Security Innovation's TeamMentor (Dinis is the main developer and architect of these Applications/APIs). Current day job is with Security Innovation where Dinis tries to promote openness, quality and sharing as part a core tenet of TeamMentor's application development environment.
+Dinis Cruz is a Developer and Application Security Engineer focused on how to develop secure applications. A key drive is on 'Automating Application Security Knowledge and Workflows' which is the main concept behind the OWASP O2 Platform and the FluentSharp APIs.
 
 After many years (and multiple roles) Dinis is still very active at OWASP, currently leading the OWASP O2 Platform project and helping out other projects and initiatives.
 
-After failing to scale his own security knowledge, learned Git, created security vulnerabilities in code published to production servers, delivered training to developers, and building multiple CI (Continuous Integration) environments; Dinis had the epiphany that the key to application security is "Secure Continuous Delivery: Developer’s Immediate Connection to What They’re Creating". This 'Immediate Connection/Feedback' concept is deep rooted in the development of the O2 Platform/TeamMentor, and is something that will keep Dinis busy for many years.
+After failing to scale his own security knowledge, learned Git, created security vulnerabilities in code published to production servers, delivered training to developers, and building multiple CI (Continuous Integration) environments; Dinis had the epiphany that the key to application security is "Secure Continuous Delivery: Developer’s Immediate Connection to What They’re Creating". This 'Immediate Connection/Feedback' concept is deep rooted in the development of the O2 Platform, and is something that will keep Dinis busy for many years.
